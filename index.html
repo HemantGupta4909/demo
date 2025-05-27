@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <style>
+        body{
+            padding:0px;
+            font-family: Arial;
+        }
+
+        form{
+            background: rgb(171, 151, 192);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input,select{
+            width: 50%;
+            padding: 8px;
+            margin: 10px 0;
+
+        }
+        button{
+            padding: 10px;
+            background-color: teal;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.csv" method="POST" onsubmit="return validateForm()">
+        <h2>User Registration</h2>
+        <input type="text" name="userid" id="userid" placeholder="User ID" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <select name="user_type" required0>
+            <option value="">-- Select Type --</option>
+            <option value="Student">Student</option>
+            <option value="Working Professional">Working Professional</option>
+        </select>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function validateForm() {
+            const userid = document.getElementById("userid").value;
+            const password = document.getElementById("password").value;
+            if (userid.length < 3 || password.length < 5) {
+                alert("UserID must be at least 3 characters and Password at least 5 characters.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
