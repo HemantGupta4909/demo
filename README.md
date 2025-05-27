@@ -1,0 +1,29 @@
+*User Registration Form*
+This project is a simple HTML user registration form with basic client-side validation implemented in JavaScript. It collects user credentials such as User ID, Password, and User Type for registration purposes.
+
+*Features*
+User-friendly registration form interface
+
+Basic input fields: User ID, Password, and User Type
+Client-side validation using JavaScript
+Responsive and styled using internal CSS
+
+*Form Fields*
+User ID: Text input, minimum 3 characters required
+Password: Password input, minimum 5 characters required
+User Type: Dropdown with options: Student or Working Professional
+
+*Validation Logic*
+Implemented in JavaScript via the validateForm() function:
+Ensures User ID is at least 3 characters long
+Ensures Password is at least 5 characters long
+If validation fails, an alert message appears and the form is not submitted
+
+*Form Submission*
+The form is designed to submit data to submit.csv using the POST method. This is likely intended for server-side processing. Note: Saving directly to a .csv file via POST requires server-side handling, which is not included in this code.
+
+*Styling*
+Background color of form: light purple
+Inputs and dropdown are styled with consistent padding and spacing
+Submit button styled with teal color and white text
+
