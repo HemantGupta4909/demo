@@ -33,3 +33,5 @@ Background color of form: light purple
 Inputs and dropdown are styled with consistent padding and spacing
 Submit button styled with teal color and white text
 
+![image alt](https://github.com/HemantGupta4909/dummy-project/blob/6996cbef6d7f5457d22c521bab674c67f1e317af/Screenshot%20(225).png)
+
