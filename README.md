@@ -8,6 +8,8 @@ Basic input fields: User ID, Password, and User Type
 Client-side validation using JavaScript
 Responsive and styled using internal CSS
 
+![image alt](https://github.com/HemantGupta4909/dummy-project/blob/a368c5772c91eec0488676dab26f211aa791eb57/Screenshot%20(222).png)
+
 *Form Fields*
 User ID: Text input, minimum 3 characters required
 Password: Password input, minimum 5 characters required
