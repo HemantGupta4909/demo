@@ -15,11 +15,15 @@ User ID: Text input, minimum 3 characters required
 Password: Password input, minimum 5 characters required
 User Type: Dropdown with options: Student or Working Professional
 
+![image alt](https://github.com/HemantGupta4909/dummy-project/blob/e8a9f59f4b029d8dd3e5da48ccdb58c6ab337f5a/Screenshot%20(223).png)
+
 *Validation Logic*
 Implemented in JavaScript via the validateForm() function:
 Ensures User ID is at least 3 characters long
 Ensures Password is at least 5 characters long
 If validation fails, an alert message appears and the form is not submitted
+
+![image alt](https://github.com/HemantGupta4909/dummy-project/blob/e8a9f59f4b029d8dd3e5da48ccdb58c6ab337f5a/Screenshot%20(224).png)
 
 *Form Submission*
 The form is designed to submit data to submit.csv using the POST method. This is likely intended for server-side processing. Note: Saving directly to a .csv file via POST requires server-side handling, which is not included in this code.
